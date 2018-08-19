@@ -1,0 +1,20 @@
+# fav1 = "harry potter"
+# fav2 = "boyhood"
+# fav3 = "legally blonde"
+
+#don't want this.. to muchh
+
+fav_movies = ["harry potter" , "boyhood", "legally blonde"] 
+
+# puts fav_movies[0] 
+
+fav_movies << "The Proposal" #shovel
+fav_movies.insert(1, "room") #inserts at specific index 
+fav_movies.push ("lord of the rings", "inception") # adds multilple data to the end 
+fav_movies.unshift("batman begins") # adds data to the beginning
+
+fav_movies.delete_at(0) #deletes data in a specific position
+
+puts fav_movies.inspect
+
+puts fav_movies #calling the array 
